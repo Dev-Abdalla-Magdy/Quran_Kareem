@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!------------- Title Of Page ------------->
+  <title>القرآن الكريم الموقع الشامل</title>
+  <!---------------- Fav Icon ---------------->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <!---------- Font Awesome Library ---------->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-------------- Google Fonts -------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-------------- Main CSS File -------------->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ======= Start Header Section ======= -->
+  <div class="header">
+    <div class="container flex-justify-between">
+      <div class="logo">
+        <a href="#">
+          <img src="images/logo.png" alt="logo">
+        </a>
+      </div>
+      <ul class="links flex-align">
+        <li>
+          <a class="main_link" class="active" href="#">استعراض السور</a>
+        </li>
+        <li>
+          <a class="main_link" href="#">تفاسير</a>
+        </li>
+        <li>
+          <a class="main_link" href="#">بث مباشر</a>
+        </li>
+        <li>
+          <a class="main_link" href="#">راديو</a>
+        </li>
+      </ul>
+      <div id="toggler" class="toggler flex-center">
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>
+    </div>
+  </div>
+  <!-- =======  End Header Section  ======= -->
+
+  <!-- ======= Start Landing Section ======= -->
+  <div class="landing">
+    <div class="container flex-between">
+      <div class="text">
+        <p>رحلة طيبة في رحاب</p>
+        <h1>القرآن الكريم</h1>
+      </div>
+      <div class="player-content flex-around">
+        <div class="select-container flex-between">
+          <div class="box">
+            <label for="#reader">اختر القارئ</label>
+            <select name="reader" id="reader">
+              <option value="1">المنشاوي</option>
+              <option value="2">العفاسي</option>
+              <option value="3">عبدالباسط</option>
+            </select>
+          </div>
+          <div class="box">
+            <label for="#rwaia">اختر الرواية</label>
+            <select name="rwaia" id="rwaia">
+              <option value="1">حفص</option>
+              <option value="2">ورش</option>
+            </select>
+          </div>
+          <div class="box">
+            <label for="#swora">اختر السورة</label>
+            <select name="swora" id="swora">
+              <option value="1">الفاتحة</option>
+              <option value="2">الناس</option>
+              <option value="3">الفلق</option>
+            </select>
+          </div>
+        </div>
+        <audio controls autoplay muted loop>
+          <source src="test.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+  </div>
+  <!-- =======  End Landing Section  ======= -->
+
+  <!--------- Font Awesome Library --------->
+  <script src="js/all.min.js"></script>
+  <!------------- Main JS File ------------->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
