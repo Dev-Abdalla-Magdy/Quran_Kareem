@@ -12,3 +12,8 @@ ulLinks.forEach(item => {
     ulEl.classList.toggle('active');
   })
 })
+
+
+fetch(' https://www.mp3quran.net/api/v3/reciters?language=eng&reciter=168').then(res=>{
+  console.log(JSON.stringify(res));
+})

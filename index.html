@@ -57,30 +57,40 @@
         <p>رحلة طيبة في رحاب</p>
         <h1>القرآن الكريم</h1>
       </div>
-      <div class="player-content flex-around">
-        <div class="select-container flex-between">
-          <div class="box">
-            <label for="#reader">اختر القارئ</label>
-            <select name="reader" id="reader">
+      <div class="player-content flex-between">
+        <div class="select-content flex-between">
+          <div class="select-container">
+            <select class="select-box" name="reader" id="reader">
+              <option id="select-title" value="">اختر القارئ</option>
               <option value="1">المنشاوي</option>
               <option value="2">العفاسي</option>
               <option value="3">عبدالباسط</option>
             </select>
+            <div class="icon-container">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
           </div>
-          <div class="box">
-            <label for="#rwaia">اختر الرواية</label>
-            <select name="rwaia" id="rwaia">
+          <div class="select-container">
+            <select class="select-box" name="rwaia" id="rwaia">
+              <option id="select-title" value="">اختر الرواية</option>
+              <option value="1">حفص</option>
               <option value="1">حفص</option>
               <option value="2">ورش</option>
             </select>
+            <div class="icon-container">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
           </div>
-          <div class="box">
-            <label for="#swora">اختر السورة</label>
-            <select name="swora" id="swora">
+          <div class="select-container">
+            <select class="select-box" name="swora" id="swora">
+              <option id="select-title" value="">اختر السورة</option>
               <option value="1">الفاتحة</option>
               <option value="2">الناس</option>
               <option value="3">الفلق</option>
             </select>
+            <div class="icon-container">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
           </div>
         </div>
         <audio controls autoplay muted loop>
